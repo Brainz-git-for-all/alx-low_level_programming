@@ -16,5 +16,8 @@ int main(void)
 	printf("Size of a long int: %d byte(s)\n", sizeof(t));
 	printf("Size of a long long int: %d byte(s)\n", sizeof(v));
 	printf("Size of a float: %d byte(s)\n", sizeof(f));
+
+	printf("the best fit size");
 	return (0);
+
 }
