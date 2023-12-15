@@ -1,9 +1,22 @@
 #include <stdio.h>
 /**
- *main- The main function
- *Return: always (0)
+ *main- functions
+ *Return: always zero
  */
+
 int main(void)
 {
-	for (int i = 0; i < 10
+	char i;
+	char z;
+
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		putchar(i);
+	}
+	for (z = 'A'; z < 'Z'; z++)
+	{
+		putchar(z);
+	}
+	putchar('\n');
+	return (0);
 }
