@@ -7,10 +7,6 @@
  */
 int _isupper(int c)
 {
-
-
+	char  j;
 		return (c >= 'A' && c <= 'Z');
-
-
-
 }
