@@ -1,12 +1,16 @@
 #include "main.h"
 #include <stdio.h>
-int _putchar(char c)
+/**
+ *_isupper - checks whether the given string is upper case
+ *@c: the variable
+ *Return: true if the isupper
+ */
+int _isupper(char c)
 {
-	char i;
 
-	if (c == 'C')
+	if (c >= 'A' && c <= 'Z')
 	{
-		printf("c++");
+		return (1);
 	}
 	else
 	{
