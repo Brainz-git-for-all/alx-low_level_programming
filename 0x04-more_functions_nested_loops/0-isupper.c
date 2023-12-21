@@ -5,7 +5,7 @@
  *@c: the variable
  *Return: true if the isupper
  */
-int _isupper(char c)
+int _isupper(int c)
 {
 
 
