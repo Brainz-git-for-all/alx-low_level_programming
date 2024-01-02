@@ -14,12 +14,8 @@ void _puts(char *str)
 
 	while (str[length] != '\0')
 	{
+		_putchar(str[length]);
 		length++;
 	}
-
-	for (i = 0; i <= length; i++)
-	{
-		printf("%c", str[i]);
-	}
-
+	_putchar('\n');
 }
