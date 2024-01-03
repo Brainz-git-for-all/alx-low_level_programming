@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio>
+#include <stdio.h>
 /**
  *puts_half- prints half os the string
  *@str: pointer
